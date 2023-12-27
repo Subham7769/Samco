@@ -1,0 +1,149 @@
+.ResultBody {
+    width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table-container {
+  width: 80%;
+  overflow-x: auto;
+  max-height: 30rem; /* Adjust as needed */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.8rem;
+  text-align: center;
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+th >span{
+    display: inline-flex;
+    flex-direction: column;
+
+}
+td >.rank{
+padding: 0.3rem;
+border: 1px solid orange;
+border-radius: 0.2rem;
+text-align: center;
+color: orange;
+font-weight: 600;
+}
+td >p{
+    display: inline;
+}
+td >div{
+    display: inline;
+    padding: 0.3rem;
+    border-radius: 100%;
+    background-color: rgb(10, 174, 10);
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+  width: 18rem; /* Custom width for the first column */
+}
+td:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  text-align: left;
+}
+td:nth-child(1)>span:nth-child(1){
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+td:nth-child(1)>span:nth-child(3) *{
+margin: 0.3rem 0.2rem;
+}
+.fundbtn{
+    padding: 0.5rem;
+    color: orange;
+    background-color: white;
+    border: none;
+    outline: 1px solid orange;
+    border-radius: 0.4rem;
+}
+.active{
+    background-color: orange;
+    color: white;
+}
+td:nth-child(1)>span>img {
+width: 1.5rem;
+}
+th:nth-child(2),
+td:nth-child(2) {
+  width: 4.5rem; /* Custom width for the second column */
+}
+th:nth-child(3),
+td:nth-child(3) {
+  width: 4.5rem;
+}
+th:nth-child(4),
+td:nth-child(4) {
+  width: 8rem;
+}
+th:nth-child(5),
+td:nth-child(5) {
+  width: 5rem;
+}
+th:nth-child(6),
+td:nth-child(6) {
+  width: 5rem;
+}
+th:nth-child(7),
+td:nth-child(7) {
+  width: 5rem;
+}
+th:nth-child(8),
+td:nth-child(8) {
+  width: 4rem;
+}
+th:nth-child(9),
+td:nth-child(9) {
+  width: 4rem;
+}
+th:nth-child(10),
+td:nth-child(10) {
+  width: 4rem;
+}
+th:nth-child(11),
+td:nth-child(11) {
+  width: 6.5rem;
+}
+th:nth-child(12),
+td:nth-child(12) {
+  width: 7rem;
+}
+.invest,.watchlist{
+padding: 0.5rem;
+border-radius: 0.5rem;
+border: none;
+outline: none;
+width: 6rem;
+margin-bottom: 0.6rem;
+color: white;
+font-weight: 600;
+}
+.invest{
+background-color: rgb(10, 174, 10);
+}
+.watchlist{
+background-color: rgb(3, 3, 174);
+}

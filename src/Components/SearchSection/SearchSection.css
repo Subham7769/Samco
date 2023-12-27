@@ -1,0 +1,128 @@
+.SearchSection{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+.SearchSection> div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+}
+.SearchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    box-shadow: 0 1px 1px 1px #ccc;
+}
+.SearchBar >div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 1;
+}
+.searchbox{
+display: flex;
+justify-content: space-between;
+
+}
+.searchbox>input{
+    flex: 1;
+    padding: 0.8rem;
+    background-color: rgb(232, 232, 232);
+    border: none;
+    border-radius: 0.3rem 0 0 0.3rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    outline: none;
+}
+#SearchBtn{
+    padding: 0.5rem 4rem;
+    background-color: yellow; 
+    border: none;
+    border-radius: 0rem 0.3rem 0.3rem 0 ;
+}
+.SearchFilterSection{
+    background-color: #3b71b6;
+    text-align: center;
+    color: white;
+    padding: 0.5rem;
+    overflow: hidden;  
+    height: 5vh; 
+}
+.expand{
+    height: fit-content;
+}
+
+.SearchFiltersContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    position: relative;
+}
+.searchFilter{
+    display: flex;
+    justify-content: space-between;
+}
+.filter{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.tileContainer{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.FilterTile{
+position: relative;
+height: 4rem;
+border-radius: 0.3rem;
+width: 11rem;
+border: none;
+padding: 0.6rem;
+}
+.FilterTile:hover{
+    height: 5rem;
+}
+.heading{
+    color: black;
+    position: absolute;
+    left: 1rem;
+    bottom: 0.5rem;
+}
+.value{
+    color: black;
+}
+.count{
+    background-color: rgba(0, 0, 0, 0.384);
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.2rem;
+    width: fit-content;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+
+}
+.checkbox{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+.special{
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
+.specialTile{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.height{
+    height:5rem;
+}

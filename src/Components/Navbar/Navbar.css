@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    box-shadow: 0 5px 5px -2px #ccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+nav>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.logo img{
+    transform: scale(0.9);
+}
+.navlist{
+    list-style: none;
+    display: flex;
+}
+.navlist li{
+height: 100%;
+margin-right: 0.6rem;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+.badge{
+    background-color: red;
+    color: white;
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.1rem;
+    position: absolute;
+    z-index: 10;
+    top: -0.2rem;
+    left: 0.6rem;
+}
+.navlist >li >button{
+background: blue;
+padding: 0.2rem 0.5rem;
+color: white;
+border-radius: 0.5rem;
+border: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.profiler{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+.profiler img{
+    width: 2rem;
+}
