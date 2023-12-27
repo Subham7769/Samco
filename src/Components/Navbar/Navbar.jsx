@@ -38,7 +38,7 @@ const Navbar = () => {
                     <option value="">My Account</option>
                     <option value="">Log Out</option>
                 </select>
-                <select name="" id="" >
+                <select name="" id="language" >
                     <option value="">English</option>
                     <option value="">Hindi</option>
                 </select>

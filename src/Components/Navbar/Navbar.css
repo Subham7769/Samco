@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 nav{
+    font-size: 0.9rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +24,7 @@ nav>div{
     width: 80%;
 }
 .logo img{
-    transform: scale(0.9);
+    transform: scale(0.8);
 }
 .navlist{
     list-style: none;
@@ -31,11 +32,18 @@ nav>div{
 }
 .navlist li{
 height: 100%;
-margin-right: 0.6rem;
+margin-right: 0.7rem;
 display: flex;
 justify-content: center;
 align-items: center;
 position: relative;
+}
+#language{
+background-color: rgb(214, 232, 244);
+padding: 0.2rem 0.3rem;
+border: none;
+border-radius: 0.5rem;
+outline: none;
 }
 .badge{
     background-color: red;
